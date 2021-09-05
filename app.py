@@ -22,6 +22,23 @@ for question, weight in QUESTIONS.items():
 	# maximum increases no matter what
 	maximum += weight
 
+for question, weight in SEX_QUESTIONS.items():
+	response = ''
+	# ask until a valid response is given
+	print(question)
+	# rip do-while loops :(
+	response = input()
+	while not response.lower() in ['y', 'n']:
+		print('Please respond either "y" or "n"')
+		response = input()
+	# if 'n', purity increases
+	if response.lower() == 'n':
+		points += weight
+	if response == 'n':
+		break
+	# maximum increases no matter what
+	maximum += weight
+
 score = int(points * 100 / maximum)
 print('\n\n')
 if (score >= 60):

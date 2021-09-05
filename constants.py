@@ -62,12 +62,17 @@ QUESTIONS = {
 	"Had the police question you?" : 7,
 	"Had the police handcuff you?" : 15,
 	"Been arrested?" : 20,
+	"69?" : 14,
 	"Been convicted of a crime?" : 24,
 	"Been convicted of a felony?": 28,
 	"Committed an act of vandalism?" : 20,
+	"Had a STI?": 40,
+	"Paid or been paid for a sexual act?" : 50,
+	"Committed an act of voyeurism?" : 30,
+}
+SEX_QUESTIONS ={
 	"Had sexual intercourse?" : 8,
 	"Had sexual intercourse three or more times in one night?" : 16,
-	"69?" : 14,
 	"Had sexual intercourse 10 or more times?" : 20,
 	"Had sexual intercourse in four or more positions?" : 10,
 	"Had sexual intercourse with a stranger or person you met within 24 hours?" : 15,
@@ -85,9 +90,7 @@ QUESTIONS = {
 	"Had sexual intercourse with a virgin?" : 15,
 	"Had sexual intercourse without a condom?" : 20,
 	"Had a STI test due to reasonable suspicion?" : 35,
-	"Had a STI?": 40,
 	"Had a threesome?": 25,
-	"Attended an orgy?" : 35,
 	"Had two or more distinct acts of sexual intercourse with two or more people within 24 hours?" : 35,
 	"Had sexual intercourse with five or more partners?" : 35,
 	"Been photographed or filmed during sexual intercourse by yourself or others?" : 40,
@@ -95,8 +98,7 @@ QUESTIONS = {
 	"Had anal sex?" : 30,
 	"Had a pregnancy scare?" : 40,
 	"Impregnated someone or been impregnated?" : 40,
-	"Paid or been paid for a sexual act?" : 50,
-	"Committed an act of voyeurism?" : 30,
+	"Attended an orgy?" : 35,
 	"Committed an act of incest?" : 100,
 	"Engaged in bestiality?" : 100
 }
