@@ -3,7 +3,7 @@ import constants
 QUESTIONS = constants.QUESTIONS
 # sum of weights of questions answered 'no'
 points = 0
-# sum of weights of all questions
+# sum of weights of all questionswefwefwefwefwefwef
 maximum = 0
 
 print('Welcome to rice purity 2.0. Answer y for yes and n for no.')
