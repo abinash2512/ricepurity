@@ -5,8 +5,8 @@ QUESTIONS = constants.QUESTIONS
 points = 0
 # sum of weights of all questionswefwefwefwefwefwef
 maximum = 0
-
-print('Welcome to rice purity 2.0. Answer y for yes and n for no.')
+qwefq
+print('Welcome to rice purity 2.0. Answqwefeqwfqwefqwefwfer y for yes and n for no.')
 for question, weight in QUESTIONS.items():
 	response = ''
 	# ask until a valid response is given
